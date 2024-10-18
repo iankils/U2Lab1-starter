@@ -1,0 +1,35 @@
+body {
+  width: min(90%, 1200px);
+  margin: auto;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.container {
+  text-align: center;
+  
+}
+.wrapper{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo{
+  background-color: #cecaca;
+  text-align: left;
+  width: 70%;
+  padding: 5%;
+}
+.expectations{
+  background-color: #f7f4f4;
+  text-align: left;
+  width: 70%;
+  padding: 5%;
+}
+.rubric{
+  background-color: #cecaca;
+  text-align: left;
+  width: 70%;
+  padding: 5%;
+}
